@@ -2,13 +2,8 @@
 import Image from "next/image";
 
 export function NavBar() {
-  //   const [isClient, setIsClient] = useState(false);
-
-  //   useEffect(() => {
-  //     setIsClient(true);
-  //   }, []);
   return (
-    <div className="inline-block">
+    <div id="navBar" className="inline-block">
       <Image
         src="/resources/ECommLogo.png"
         alt="EComm Logo"
@@ -16,6 +11,10 @@ export function NavBar() {
         height={100}
       />
       <input></input>
+
+      <label>Account</label>
+      <label>Favourites</label>
+      <label>Cart</label>
     </div>
   );
 }
