@@ -5,7 +5,7 @@ import { OptionBar } from "../Components/opt-bar";
 
 export default function Page() {
   return (
-    <div>
+    <div className="items-center width:{100%} height{20%)">
       <NavBar></NavBar>
       <OptionBar></OptionBar>
       <MainContainer></MainContainer>
